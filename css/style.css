@@ -1,0 +1,101 @@
+/*清零*/
+*{
+	padding:0; 
+	margin:0;
+}
+ul{
+	list-style: none;
+}
+a,s{
+	text-decoration: none;
+}
+a{
+	color: #666;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 12px;
+	font-weight: normal;
+}
+em{
+	font-style: normal;
+}
+img,input,textarea{
+	border: none;
+}
+input,textarea{
+	outline: none;
+	border: none;
+}
+input img{
+	border: 0 none;
+}
+img{
+	vertical-align: middle;
+}
+a:hover{
+	color: #c81623;
+}
+input:focus{
+	border: 0 none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+i{
+	font-style: normal;
+	font-family: "FontAwesome";
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*公用*/
+body{
+	font: 12px Arial,Verdana,"\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
+.inner{
+	max-width: 1210px;
+	margin: 0 auto;
+	width: 100%
+}
+.foot_banner{
+	width: 1200px;
+	margin-top: 20px;
+}
+.foot_banner a{
+	float: left;
+	width: 400px;
+	height: 125px;
+}
+.foot_banner a img{
+	width: 400px;
+	height: 125px;	
+}
+.page_brand{
+	height: 53px;
+	background: #f7f7f7;
+	margin-top: 10px;
+	padding-top: 13px;
+}
+.page_brand ul{
+	height: 40px;
+}
+.page_brand ul li{
+	float: left;
+    width: 120px;
+    height: 40px;
+    border-left: 1px dotted #ccc;
+    text-align: center;
+}
+.page_brand ul .fore1{
+	border-left: 0 none;
+}
+.hide{
+	display: none;
+}
